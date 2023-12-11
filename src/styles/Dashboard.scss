@@ -1,0 +1,129 @@
+$blue : #3F5EF6;
+$red : #EB5128;
+$gold : #E9AE3C;
+
+
+.cl_red{
+    color : $red;
+}
+
+.cl_blue{
+    color : $blue;
+}
+
+
+.Dashboard{
+
+    padding: 32px;
+
+
+    .grade{
+        color: $gold;
+        font-weight: 500;
+    }
+
+    .uesr_name{
+        font-size: 17px;
+        font-weight: 500;
+        margin: 0.2rem 0 1.5rem 0;
+    }
+
+    .box_1{
+        display: flex;
+        margin-bottom: 3rem;
+
+        .DashInfo_box{
+            flex: 1;
+
+            .info_box{
+                flex-wrap: wrap;
+    
+                .info{
+                    flex :1 1 40%;
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+
+    .DashInfo{
+        background-color: $blue;
+        color: white;
+        height: 12.5rem;
+        border-radius: 0.5rem;
+        padding: 8px 1.125rem;
+        margin-right: 13px;
+        position: relative;
+
+        .DashInfo_text{
+            position: relative;
+            top: 30%;
+            left: 1rem;
+
+            .total_day{
+                font-size: 24px;
+            }
+    
+            .entry_day{
+                font-size: 11px;
+            }
+        }
+
+        img{
+            position: absolute;
+            width: 18rem;
+            right: 10px;
+            top: -60px;
+        }
+    }
+
+   
+    .Calendar {
+        background-color: white;
+        width: 275px; // 35%
+        // height: 20.12rem;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        position: relative;
+    }
+
+    .Graph {
+        background-color: white;
+        height: 15rem;
+        margin-bottom: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    .info_box{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .info_box-last-child{
+        margin-right: 0px;
+    }
+
+    .info{
+        background-color: white;
+        border-radius: 0.5rem;
+        padding: 1.4rem 1.125rem;
+        flex: 1;
+        margin-right: 13px;
+        font-size: 0.85rem;
+        line-height: 27px;
+
+        span{
+            float: right;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+    }
+
+
+    .box_title{
+        margin: 1.5rem 0;
+        font-size: 17px;
+        font-weight: 500;
+    }
+}

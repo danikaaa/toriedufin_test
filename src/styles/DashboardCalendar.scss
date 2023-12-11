@@ -1,0 +1,86 @@
+
+
+$dayColor : #8E8E8E;
+$blue : #3F5EF6;
+
+.react-calendar{
+    border: none;
+
+
+    .react-calendar > div{
+        position: relative;
+    }
+
+        // 이전, 다음년도 버튼 해제
+    .react-calendar__navigation__next2-button, .react-calendar__navigation__prev2-button {
+        display: none;
+    }
+    
+
+
+
+    // 요일
+    .react-calendar__month-view__weekdays{
+        text-transform: none;
+        cursor: default;
+        color: #8E8E8E;
+    }
+
+    abbr{
+        text-decoration: none;
+    }
+
+
+
+    // 날짜
+    .react-calendar__month-view__days__day {
+        color: $dayColor;
+    }
+
+
+    // 학습날짜 체크
+        .learn_day {
+        color: #2C3973; 
+        position: relative;
+        top: -14px;
+        left: -9px;
+    }
+
+
+    .react-calendar__tile--active{
+        border-radius: 50%;
+        background-color: $blue;
+        color: white;
+    }
+
+    .react-calendar__tile--now{
+        border-radius: 50%;
+        background-color: white;
+        border: 1px solid;
+        color: $dayColor;
+    }
+
+    .react-calendar__tile--now:enabled:hover, .react-calendar__tile--now:enabled:focus{
+        background-color: $blue;
+        color:white;
+    }
+
+
+}
+
+
+
+.month_total_day{
+    text-align: center;
+    border-top: 1.4px solid #EEEEEE;
+    padding-top: 1rem;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 18px;
+    width: calc(100% - 35px);
+
+    span{
+        font-weight: 600;
+    }
+}
+
