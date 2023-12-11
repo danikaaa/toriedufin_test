@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/toriedufin_test/static/css/main.52b1f1aa.css",
+    "main.js": "/toriedufin_test/static/js/main.c7e393bf.js",
+    "static/js/787.917857b7.chunk.js": "/toriedufin_test/static/js/787.917857b7.chunk.js",
+    "static/media/Dashboard_img.png": "/toriedufin_test/static/media/Dashboard_img.bfd2c85bfd3bdc07e658.png",
+    "index.html": "/toriedufin_test/index.html",
+    "main.52b1f1aa.css.map": "/toriedufin_test/static/css/main.52b1f1aa.css.map",
+    "main.c7e393bf.js.map": "/toriedufin_test/static/js/main.c7e393bf.js.map",
+    "787.917857b7.chunk.js.map": "/toriedufin_test/static/js/787.917857b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52b1f1aa.css",
+    "static/js/main.c7e393bf.js"
+  ]
+}
